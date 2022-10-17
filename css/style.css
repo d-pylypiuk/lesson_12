@@ -26,7 +26,8 @@ body{
 	/* border: 1px solid yellow; */
 }
 .garage:hover .menu__items{
-	background-size: 33%;
+	background-size:40%;
+	background-color: rgb(119, 85, 212,.2);
 }
 .garage__menu{
 	transition: all 3s ease-in-out .1s;
@@ -34,15 +35,20 @@ body{
 	position: absolute;
 	padding: 0px 10px;
 }
-.menu__list{}
-.menu__items{
-	transition: all .5s ease-in-out .9s;
-	width: 200px;
+.menu__list{
+	height: auto;
+}
+.menu__items:hover{
 	height: 100%;
+}
+.menu__items{
+	transition: all .5s ease-in-out .0s;
+	width: 200px;
+	height: 100px;
 	background-image: url(../img/icons/paint.png);
 	background-size: 30%;
 	background-repeat: no-repeat;
-	background-position: 60% 20px;
+	background-position: 60% 10px;
 	padding-top: 100px;
 }
 .menu__items:hover a{
